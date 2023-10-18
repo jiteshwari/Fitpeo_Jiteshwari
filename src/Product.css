@@ -1,0 +1,143 @@
+.prod-text {
+    padding: 1rem;
+    background-color: #fffffff7;
+    margin-top: 1rem;
+    width: 100%;
+     max-width: 100%;
+  }
+
+  .text-color{
+    color:  #9090a7;
+   font-size: small;
+  }
+
+  .card1 {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px hsl(0, 18%, 96%);
+    height: 340px;
+  }
+    .expenses1 {
+    padding: 0rem;
+     margin: 1rem ;
+    width: 85rem;
+    max-width: 100%;
+  }
+  .search{
+    border: none;
+    border-color:#fff;
+    border-width: 0rem;
+    
+  }
+
+  .ProdL-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 15px;
+    border: 8px;
+    border-color: aqua;
+    border-radius: 5px;
+    height: 170px;
+    background-color: #fff;
+    
+    
+  }
+  
+
+
+
+
+  /* Import Font Awesome (make sure you have the Font Awesome library linked in your HTML) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.search-container {
+  position: relative;
+  width: 300px; /* Adjust width as needed */
+  margin: 0px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px 30px 10px 10px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .table-container::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+
+ 
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th, .custom-table td {
+    border: none;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .custom-table th {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .custom-table th[colspan="4"] {
+    text-align: center;
+  }
+  
+  .custom-table th:first-child {
+    width: 66.67%;
+  }
+  
+
+/* ... Existing CSS ... */
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .custom-table th, .custom-table td {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .search-bar {
+      padding: 8px;
+    }
+  
+    .table-container {
+      /* overflow-x: auto; */
+      width: 100%;
+    }
+  
+    .ProdL-card {
+      padding: 8px;
+      margin: 8px;
+    }
+  }
+  
+  /* ... Rest of the CSS ... */
+  
+
+  .profit-details2 {
+    color:  #9090a7;
+   font-size: small;
+  } 
+ 
